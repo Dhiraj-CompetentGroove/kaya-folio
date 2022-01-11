@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkevantay_com=self.webpackChunkevantay_com||[]).push([[8465],{9448:function(a){a.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/posthog","name":"posthog","count":1,"permalink":"/blog/tags/posthog"}')}}]);

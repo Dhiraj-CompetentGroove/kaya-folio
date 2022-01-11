@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkevantay_com=self.webpackChunkevantay_com||[]).push([[5257],{8711:function(e){e.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/book-review","name":"book-review","count":1,"permalink":"/blog/tags/book-review"}')}}]);

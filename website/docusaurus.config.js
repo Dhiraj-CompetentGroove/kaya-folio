@@ -4,15 +4,15 @@ const katex = require("rehype-katex");
 const internetProfiles = {
   linkedin: {
     label: "LinkedIn",
-    href: "https://www.linkedin.com/in/evanitsg/",
+    href: "https://www.linkedin.com/in/",
   },
   github: {
     label: "GitHub",
-    href: "https://github.com/digipie",
+    href: "https://github.com/",
   },
   email: {
     label: "Email",
-    href: "mailto:evan.it.sg@gmail.com",
+    href: "",
   },
   blog: {
     label: "Blog",
@@ -32,7 +32,7 @@ const internetProfiles = {
   },
   resume: {
     label: "Resume",
-    href: "https://evantay.com/pdf/resume.pdf",
+    href: "https://help.centralindia.cloudapp.azure.com/resume.pdf",
   },
 };
 
@@ -40,7 +40,7 @@ module.exports = {
   title: "Evan Tay",
   tagline:
     "I am a Software Engineer and Cloud Engineer passionate about solving Meaningful Problems.",
-  url: "https://evantay.com",
+  url: "https://help.centralindia.cloudapp.azure.com",
   baseUrl: "/",
   onBrokenLinks: "throw",
   favicon: "img/logo.png",
@@ -59,7 +59,7 @@ module.exports = {
       logo: {
         alt: "Evan Tay",
         src: "img/logo.png",
-        href: "https://evantay.com",
+        href: "https://help.centralindia.cloudapp.azure.com",
         target: "_self",
       },
       items: [
@@ -73,7 +73,7 @@ module.exports = {
         { to: "projects/", label: "Projects", position: "right" },
         { to: "about/", label: "About", position: "right" },
         {
-          href: "https://evantay.com/pdf/resume.pdf",
+          href: "https://help.centralindia.cloudapp.azure.com/pdf/resume.pdf",
           label: "Resume",
           position: "right",
         },
@@ -121,7 +121,7 @@ module.exports = {
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
-          editUrl: "https://github.com/DigiPie/kaya-folio/tree/main/website/",
+          editUrl: "https://github.com/dhiraj-competentgroove/kaya-folio/tree/main/website/",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),

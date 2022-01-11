@@ -20,7 +20,7 @@ I decided it was better off for me to write my own script. Here it is:
 
 :::caution
 
-The script below assumes that your Docusaurus website resides at `/website` of your repo. If that is not the case for you, you will need to:
+The script   below assumes that your Docusaurus website resides at `/website` of your repo. If that is not the case for you, you will need to:
 
 - Change `cd website` to `cd <docu_site_root>`, or delete the entire line if your Docusaurus website is at the root of your repo `/`
 - Change `build_dir`'s value from `website/build` to `<docu_site_root>/build`, or `build` if your Docusaurus website is at the root of your repo `/`
